@@ -1,0 +1,47 @@
+.main{
+    width:97vw;
+    height:98vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+div.main{
+    
+        background: 
+          linear-gradient(to right, green, rgb(25, 0, 255)), 
+          linear-gradient(to bottom, blue, green);
+       
+      }
+      
+
+
+.card{
+    height:400px;
+
+    width:60%;
+    display: flex;
+    border-radius: 20px;
+    border-color:soild red;
+    
+}
+
+#left{
+    border-radius: 10px;
+    height:400px;
+    width:20%;
+    background-color:rgb(8, 234, 155);
+    padding-left: 30px;
+    padding-top: 7px;
+    
+}
+
+#right{
+    border-radius: 10px;
+    height:400px;
+    width:40%;
+    background-color: rgb(63, 127, 18);
+    padding-left: 100px;
+}
+.show-Result{
+    flex-direction: down;
+}

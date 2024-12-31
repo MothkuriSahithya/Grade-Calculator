@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="card">
+        
+        <div id="left">
+            <h1 style="color:black">Result</h1>
+            <br>
+            <h3 style="color: black;">Total:<span id="total"></span></h3>
+            <h3 style="color: black;">Percentage:<span id="Percentage"></span></h3>
+            <h3 style="color: black;">Grade:<span id="Grade"></span></h3>
+        </div>
+
+        <div id="right">
+
+            <br>
+            <br>
+           <input type="text" id="CHEMISTRY" placeholder="CHEMISTRY"/>
+           <br>
+           <br>
+
+           <input type="text" id="PHYSICS" placeholder="PHYSICS"/>
+           <br>
+           <br>
+
+           <input type="text" id="MATHS" placeholder="MATHS" />
+           <br>
+
+           <br>
+           <input type="text" id="ENGLISH" placeholder="ENGLISH"/>
+           <br>           
+           <br>
+           <input type="text" id="HINDHI" placeholder="HINDHI"/>
+            <br>
+            <br>
+           <button onclick="getResult()">Calculate Result</button>
+        </div>
+        
+    </div>
+    <div class="show-Result">
+        <h1 id="Showresult"></h1>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
